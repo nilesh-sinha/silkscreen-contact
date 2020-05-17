@@ -1,5 +1,4 @@
 import React from "react";
-import bgImg from "./assets/multi_bg.jpg";
 import "./App.css";
 
 function App() {
@@ -135,7 +134,9 @@ function App() {
 
       <div className="w3-display-container w3-animate-opacity">
         <img
-          src={bgImg}
+          src={
+            "https://res.cloudinary.com/nd10/image/upload/v1589736492/silkscreen/multi_bg_fx2mgo.jpg"
+          }
           alt="boat"
           style={{ width: "100%", minHeight: "350px", maxHeight: "600px" }}
         />
@@ -466,11 +467,11 @@ function App() {
         </div>
       </div>
 
-      <img
+      {/* <img
         src="/w3images/map.jpg"
         className="w3-image w3-greyscale-min"
         style={{ width: "100%" }}
-      />
+      /> */}
 
       <footer className="w3-container w3-padding-32 w3-theme-d1 w3-center">
         <h4>Follow Us</h4>
@@ -542,6 +543,12 @@ function App() {
           <a href="https://www.flaticon.com/" title="Flaticon">
             {" "}
             www.flaticon.com
+          </a>
+        </p>
+        <p>
+          Developed with <i className="fa fa-twitter"></i> by{" "}
+          <a href="https://github.com/nilesh-sinha" title="Flaticon">
+            Nilesh
           </a>
         </p>
 
