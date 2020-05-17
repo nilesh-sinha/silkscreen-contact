@@ -102,13 +102,13 @@ function App() {
           >
             Contact
           </a>
-          <a
+          {/* <a
             href="#"
             className="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal"
             title="Search"
           >
             <i className="fa fa-search"></i>
-          </a>
+          </a> */}
         </div>
 
         <div
